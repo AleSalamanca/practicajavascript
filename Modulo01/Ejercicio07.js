@@ -9,8 +9,8 @@ const car2 = { name: "Chevrolet Corbina", basePrice: 70000, finalPrice: 80000 };
 //RESPUESTA// 
 globalBasePrice = 250000; //Asignamos un nuevo valor 
 
-car1.basePrice = car1.basePrice + globalBasePrice; //Para sumar un valor a otro ya existente podemos igualarlo al mismo valor + el que queremos agregar 
-car2.basePrice += globalBasePrice; // o simplemente podemos utilizar += que lo que hace es sumar el nuevo valor al valor existente. 
+car1.finalPrice = car1.basePrice + globalBasePrice; 
+car2.finalPrice = car2.basePrice + globalBasePrice; 
 
-console.log (car1.basePrice);
-console.log(car2.basePrice);
+console.log (car1.finalPrice);
+console.log(car2.finalPrice);
