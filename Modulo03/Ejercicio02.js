@@ -1,6 +1,7 @@
 //Inserta dinamicamente en un html un div que contenga una p con javascript.
 
 let NewDiv = document.createElement("div");
+
 let NewP = document.createElement("p");
 
 NewP.innerHTML= "HOLA MUNDO";
