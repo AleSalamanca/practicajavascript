@@ -2,7 +2,6 @@
 
 let removeElements = document.querySelectorAll('.fn-remove-me');
 
-
 for (const removeThis of removeElements) {
     
      removeThis.remove();
