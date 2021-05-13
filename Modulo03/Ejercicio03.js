@@ -2,7 +2,6 @@
 
 let NewDiv = document.createElement("div");
 
-
 for (let index = 0; index < 6; index++) {
     
     let NewP = document.createElement("p");
